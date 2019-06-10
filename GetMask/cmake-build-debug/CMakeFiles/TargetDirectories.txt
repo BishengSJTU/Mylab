@@ -1,0 +1,3 @@
+/home/bisheng/final_paper/GetMask/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/bisheng/final_paper/GetMask/cmake-build-debug/CMakeFiles/lab.dir
+/home/bisheng/final_paper/GetMask/cmake-build-debug/CMakeFiles/edit_cache.dir

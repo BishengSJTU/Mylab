@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/LSD.dir/main.cpp.o  -o LSD opencv_core-NOTFOUND opencv_imgproc-NOTFOUND opencv_highgui-NOTFOUND 

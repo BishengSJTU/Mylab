@@ -4,15 +4,15 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "E:/ClionProjects/FDCM/IprovedFDCM.cpp" "E:/ClionProjects/FDCM/cmake-build-debug/CMakeFiles/FDCM.dir/IprovedFDCM.cpp.obj"
-  "E:/ClionProjects/FDCM/main.cpp" "E:/ClionProjects/FDCM/cmake-build-debug/CMakeFiles/FDCM.dir/main.cpp.obj"
+  "/home/bisheng/final_paper/FDCM/IprovedFDCM.cpp" "/home/bisheng/final_paper/FDCM/cmake-build-debug/CMakeFiles/FDCM.dir/IprovedFDCM.cpp.o"
+  "/home/bisheng/final_paper/FDCM/main.cpp" "/home/bisheng/final_paper/FDCM/cmake-build-debug/CMakeFiles/FDCM.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "D:/Learning Software/opencv3.2.0/opencv/mingw64_build/install/include"
-  "D:/Learning Software/opencv3.2.0/opencv/mingw64_build/install/include/opencv"
+  "/opt/ros/kinetic/include/opencv-3.3.1-dev"
+  "/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv"
   )
 
 # Targets to which this target links.

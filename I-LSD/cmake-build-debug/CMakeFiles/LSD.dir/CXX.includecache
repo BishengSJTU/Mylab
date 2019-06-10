@@ -6,25 +6,25 @@
 
 #IncludeRegexTransform: 
 
-/home/bisheng/final_paper/LSD_new/ILSD.h
+/home/bisheng/final_paper/I-LSD/ILSD.h
 opencv2/imgproc.hpp
-/home/bisheng/final_paper/LSD_new/opencv2/imgproc.hpp
+/home/bisheng/final_paper/I-LSD/opencv2/imgproc.hpp
 opencv2/imgcodecs.hpp
-/home/bisheng/final_paper/LSD_new/opencv2/imgcodecs.hpp
+/home/bisheng/final_paper/I-LSD/opencv2/imgcodecs.hpp
 opencv2/highgui.hpp
-/home/bisheng/final_paper/LSD_new/opencv2/highgui.hpp
+/home/bisheng/final_paper/I-LSD/opencv2/highgui.hpp
 iostream
 -
 
-/home/bisheng/final_paper/LSD_new/main.cpp
+/home/bisheng/final_paper/I-LSD/main.cpp
 opencv2/imgproc.hpp
-/home/bisheng/final_paper/LSD_new/opencv2/imgproc.hpp
+/home/bisheng/final_paper/I-LSD/opencv2/imgproc.hpp
 opencv2/imgcodecs.hpp
-/home/bisheng/final_paper/LSD_new/opencv2/imgcodecs.hpp
+/home/bisheng/final_paper/I-LSD/opencv2/imgcodecs.hpp
 opencv2/highgui.hpp
-/home/bisheng/final_paper/LSD_new/opencv2/highgui.hpp
+/home/bisheng/final_paper/I-LSD/opencv2/highgui.hpp
 ILSD.h
-/home/bisheng/final_paper/LSD_new/ILSD.h
+/home/bisheng/final_paper/I-LSD/ILSD.h
 iostream
 -
 algorithm

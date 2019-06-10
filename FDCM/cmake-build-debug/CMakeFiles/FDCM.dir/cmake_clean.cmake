@@ -1,10 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/FDCM.dir/main.cpp.obj"
-  "CMakeFiles/FDCM.dir/IprovedFDCM.cpp.obj"
+  "CMakeFiles/FDCM.dir/main.cpp.o"
+  "CMakeFiles/FDCM.dir/IprovedFDCM.cpp.o"
   "FDCM.pdb"
-  "FDCM.exe"
-  "FDCM.exe.manifest"
-  "libFDCM.dll.a"
+  "FDCM"
 )
 
 # Per-language clean rules from dependency scanning.

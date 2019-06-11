@@ -9,6 +9,7 @@
 #include <opencv2/core/core.hpp>
 #include <highgui.h>
 #include "fstream"
+#include "/usr/local/include/yaml-cpp/yaml.h"
 
 #include "IprovedFDCM.h"
 using namespace std;
@@ -24,23 +25,43 @@ int main(int argc, char* argv[]) {
     Ptr<LineSegmentDetector> ls = createLineSegmentDetector(LSD_REFINE_NONE, 0.8, 0.6, 0.5, 16, 0, 0.9, 1024);
 #endif
     //灰度图
-    Mat Template = imread("1.jpg", 0);
-    vector<Vec4f> ScrLines, Qlines;
-    ls->detect(Template, Qlines);
-    VideoCapture cap("5.mp4");
-    IprovedFDCM fastmodel;
-    int len_th = 15;
-    double rst[4];
-    //将line过短（<len_th的删除）按线长排序
-    fastmodel.lineSortCut(Qlines, fastmodel.Qorder, len_th);
-    double lenSum = 0;
-    for (int i = 0; i < Qlines.size(); i++) {
-        lenSum += fastmodel.Pointdistance(Qlines.at(i)[0], Qlines.at(i)[1], Qlines.at(i)[2], Qlines.at(i)[3]);
-    }
-    fastmodel.Gloable_th = lenSum * OnlyThreshold;
-    for (;;) {
+    int N = 1;
+    YAML::Node config = YAML::LoadFile("line.yaml");
+
+    for (int image_th = 0; image_th < N; image_th++) {
+
+
+
+//        Mat Template = imread("1.jpg", 0);
+        vector<Vec4f> ScrLines, Qlines;
+
+        vector<vector<float> > myline;
+        myline = config["0"].as<vector<vector<float>>>();
+        for(int i = 0; i < myline.size(); i++) {
+            Vec4f line;
+            for (int j = 0; j < myline[i].size(); j++)
+                line[j] = myline[i][j];
+            Qlines.push_back(line);
+        }
+
+
+//        ls->detect(Template, Qlines);
+
+
+        IprovedFDCM fastmodel;
+        int len_th = 15;
+        double rst[4];
+        //将line过短（<len_th的删除）按线长排序
+        fastmodel.lineSortCut(Qlines, fastmodel.Qorder, len_th);
+        double lenSum = 0;
+        for (int i = 0; i < Qlines.size(); i++) {
+            lenSum += fastmodel.Pointdistance(Qlines.at(i)[0], Qlines.at(i)[1], Qlines.at(i)[2], Qlines.at(i)[3]);
+        }
+        fastmodel.Gloable_th = lenSum * OnlyThreshold;
+
+
         Mat Src;
-        cap >> Src;
+        Src = imread("image" + to_string(image_th) + ".png");
         if (Src.cols == 0) {
             break;
         }

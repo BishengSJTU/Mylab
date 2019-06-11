@@ -7,10 +7,10 @@ include_directories(${OpenCV_INCLUDE_DIRS})
 link_directories(${OpenCV_LIBRARY_DIRS})
 add_definitions(${OpenCV_DEFINATIONS})
 
-set(CMAKE_CXX_STANDARD 14)
+add_definitions(-std=c++11)
 
 add_executable(TLG main.cpp)
 
 set(OpenCV_LIBS opencv_core opencv_imgproc opencv_highgui opencv_imgcodecs)
 
-target_link_libraries(TLG ${OpenCV_LIBS} libyaml-cpp.a)
+target_link_libraries(TLG ${OpenCV_LIBS} /usr/local/lib/libyaml-cpp.a)

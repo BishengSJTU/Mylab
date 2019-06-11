@@ -4,6 +4,7 @@
 #include <iostream>
 #include <algorithm>
 #include <fstream>
+#include <string.h>
 #include <set>
 #include "/usr/local/include/yaml-cpp/yaml.h"
 
@@ -63,20 +64,22 @@ double LineAngle(double x1, double y1, double x2, double y2) {
 int main()
 {
     YAML::Node config;
-    ofstream fout("config.yaml",ios::app);
+    ofstream fout("line.yaml",ios::app);
 
-//    config["1"] = a;
-//    fout << config << endl;
-//    fout.close();
+
     int MAX_LENS = 3;
     bool useRefine = true;
     bool useCanny = true;
-    int N =  1;
+    int N =  2562;
     for(int image_th = 0; image_th < N; image_th++) {
-        Mat image = imread("r400num" + to_string(image_th) + "gamma0.bmp");
-//    resize(image, image, Size(image.rows/8, image.cols/5));
+
+        config.reset();
+
+        Mat image = imread("./ico_template_m2_400/r400num" + to_string(image_th) + "gamma0.bmp");
+
         if (image.empty()) {
             cout << "Unable to load Image" << endl;
+            waitKey(0);
             return 1;
         }
         Mat resImage;
@@ -134,7 +137,7 @@ int main()
         vector<Vec4f> L;
         MAX_LENS = min(MAX_LENS, (int) line.size());
         set<int> s;
-        for (int ith = 0; ith < 3; ith++) {
+        for (int ith = 0; ith < MAX_LENS; ith++) {
             int index = idxLens[ith].idx;
 
             double x1 = line.at(index)[0];
@@ -148,6 +151,8 @@ int main()
             double k = tan(angle * CV_PI / 180);
 
             int discreteAngle = angle / 10;
+            if(discreteAngle > 17)
+                discreteAngle = 17;
 
             double x0 = (x1 + x2) / 2;
 
@@ -165,7 +170,8 @@ int main()
             }
 
 
-            for (int i = 0; i < angleLine[discreteAngle].size(); i++) {
+            for (int i = 0; i < angleLine[discreteAngle].size(); i++)
+            {
                 if (angleLine[discreteAngle][i].idx == index)
                     continue;
                 double a1 = line[angleLine[discreteAngle][i].idx][0];
@@ -272,7 +278,7 @@ int main()
         max_line.push_back(line[max_idx]);
         average_len = total_len / line.size();
         for (int i = 0; i < len.size(); i++) {
-            if (len[i] > average_len)
+            if (len[i] > max_len * 0.2)
                 cut_line.push_back(line[i]);
         }
 
@@ -282,7 +288,7 @@ int main()
         Mat lineImage = Mat::zeros(image.rows, image.cols, CV_8UC1);
 
         ls->drawSegments(lineImage, cut_line);
-        cout << cut_line.size() << endl;
+
         cvtColor(lineImage, lineImage, CV_BGR2GRAY);
         threshold(lineImage, lineImage, 0, 255, THRESH_OTSU);
 
@@ -295,13 +301,12 @@ int main()
             writeline.push_back(cut_line.at(i)[3]);
             writelines.push_back(writeline);
         }
+
         config[to_string(image_th)] = writelines;
 
         fout << config;
         fout << endl;
-
-        imshow("result", lineImage);
-        waitKey(0);
+        cout << "image" << image_th << "has been processed" << endl;
     }
     fout.close();
     return 0;

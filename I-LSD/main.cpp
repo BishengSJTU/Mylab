@@ -63,7 +63,7 @@ int main()
     int MAX_LENS = 3;
     bool useRefine = true;
     bool useCanny = true;
-    Mat image = imread("2.jpg");
+    Mat image = imread("r400num0gamma0.bmp");
 //    resize(image, image, Size(image.rows/8, image.cols/5));
     if( image.empty() )
     {
@@ -261,6 +261,27 @@ int main()
 
 
     // 求平均直线长度，将小于平均长度的直线删除
+    idxLens.clear();
+    len.clear();
+    max_len = 0;
+    max_idx = 0;
+
+    for(int i = 0; i < line.size(); i++)
+    {
+        double l = Pointdistance(line.at(i)[0], line.at(i)[1], line.at(i)[2], line.at(i)[3]);
+        idxLen iL;
+        iL.idx = i;
+        iL.len = l;
+        idxLens.push_back(iL);
+        len.push_back(l);
+
+
+        if(l > max_len) {
+            max_len = l;
+            max_idx = i;
+        }
+    }
+
     max_line.push_back(line[max_idx]);
     average_len = total_len/line.size();
     for(int i = 0; i < len.size(); i++)
@@ -274,7 +295,7 @@ int main()
     // Show found lines
     Mat lineImage = Mat::zeros(image.rows, image.cols, CV_8UC1);
 
-    ls->drawSegments(lineImage, line);
+    ls->drawSegments(lineImage, cut_line);
     cvtColor(lineImage, lineImage, CV_BGR2GRAY);
     threshold(lineImage, lineImage, 0, 255, THRESH_OTSU);
 

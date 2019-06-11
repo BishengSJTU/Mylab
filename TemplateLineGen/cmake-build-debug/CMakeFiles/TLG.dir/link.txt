@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/TLG.dir/main.cpp.o  -o TLG -Wl,-rpath,/usr/local/lib /usr/local/lib/libopencv_highgui.so.3.4.2 -Wl,-Bstatic -lyaml-cpp -Wl,-Bdynamic /usr/local/lib/libopencv_videoio.so.3.4.2 /usr/local/lib/libopencv_imgcodecs.so.3.4.2 /usr/local/lib/libopencv_imgproc.so.3.4.2 /usr/local/lib/libopencv_core.so.3.4.2 

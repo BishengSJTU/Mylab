@@ -156,7 +156,7 @@ Mat maxArea(Mat src)
 }
 int main() {
     Mat src, lab, hsv;
-    src = imread("image7.png");
+    src = imread("r400num1gamma0.bmp");
     cvtColor(src, lab, COLOR_BGR2Lab);
     cvtColor(src, hsv, COLOR_BGR2HSV);
 
@@ -191,14 +191,14 @@ int main() {
         }
     }
 
-    threshold(dst1, dst1, 0, 255, CV_THRESH_OTSU);
+    threshold(dst1, dst1, 0, 255, CV_THRESH_BINARY);
     Mat element = getStructuringElement(MORPH_RECT, Size(3, 3));
     Mat out;
     dilate(dst1, dst1, element);
     erode(dst1,dst1, element);
 
 
-    threshold(dst2, dst2, 0, 255, CV_THRESH_OTSU);
+    threshold(dst2, dst2, 0 , 255, CV_THRESH_BINARY);
 
     dst1 = maxArea(dst1);
     dst2 = maxArea(dst2);
@@ -212,8 +212,8 @@ int main() {
     imshow("dst2", dst2);
 
     imshow("src", src);
-    imshow("dst1", dst1);
-    imshow("final1", final1);
+//    imshow("dst1", dst1);
+//    imshow("final1", final1);
 
 
 //    Mat result;

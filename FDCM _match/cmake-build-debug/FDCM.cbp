@@ -5,112 +5,113 @@
 		<Option title="FDCM"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\opt\;CMake Files\..\..\..\..\opt\ros\;CMake Files\..\..\..\..\opt\ros\kinetic\;CMake Files\..\..\..\..\opt\ros\kinetic\share\;CMake Files\..\..\..\..\opt\ros\kinetic\share\OpenCV-3.3.1-dev\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\usr\local\share\;CMake Files\..\..\..\..\..\usr\local\share\OpenCV\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/bisheng/final_paper/FDCM _match/cmake-build-debug"/>
+				<Option working_dir="/home/bisheng/final paper/Mylab/FDCM _match/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/home/bisheng/final_paper/FDCM\ _match/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/bisheng/final_paper/FDCM\ _match/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j6 -f &quot;/home/bisheng/final_paper/FDCM\ _match/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j6 -f &quot;/home/bisheng/final_paper/FDCM\ _match/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/bisheng/final\ paper/Mylab/FDCM\ _match/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/bisheng/final\ paper/Mylab/FDCM\ _match/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/bisheng/final\ paper/Mylab/FDCM\ _match/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/bisheng/final\ paper/Mylab/FDCM\ _match/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/bisheng/final_paper/FDCM _match/cmake-build-debug"/>
+				<Option working_dir="/home/bisheng/final paper/Mylab/FDCM _match/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/home/bisheng/final_paper/FDCM\ _match/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/bisheng/final_paper/FDCM\ _match/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j6 -f &quot;/home/bisheng/final_paper/FDCM\ _match/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j6 -f &quot;/home/bisheng/final_paper/FDCM\ _match/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/bisheng/final\ paper/Mylab/FDCM\ _match/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/bisheng/final\ paper/Mylab/FDCM\ _match/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/bisheng/final\ paper/Mylab/FDCM\ _match/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/bisheng/final\ paper/Mylab/FDCM\ _match/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="FDCM">
-				<Option output="/home/bisheng/final_paper/FDCM _match/cmake-build-debug/FDCM" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/bisheng/final_paper/FDCM _match/cmake-build-debug"/>
+				<Option output="/home/bisheng/final paper/Mylab/FDCM _match/cmake-build-debug/FDCM" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/bisheng/final paper/Mylab/FDCM _match/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/opt/ros/kinetic/include/opencv-3.3.1-dev"/>
-					<Add directory="/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv"/>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/home/bisheng/final_paper/FDCM\ _match/cmake-build-debug/Makefile&quot;  VERBOSE=1 FDCM"/>
-					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/bisheng/final_paper/FDCM\ _match/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j6 -f &quot;/home/bisheng/final_paper/FDCM\ _match/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j6 -f &quot;/home/bisheng/final_paper/FDCM\ _match/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/bisheng/final\ paper/Mylab/FDCM\ _match/cmake-build-debug/Makefile&quot;  VERBOSE=1 FDCM"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/bisheng/final\ paper/Mylab/FDCM\ _match/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/bisheng/final\ paper/Mylab/FDCM\ _match/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/bisheng/final\ paper/Mylab/FDCM\ _match/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="FDCM/fast">
-				<Option output="/home/bisheng/final_paper/FDCM _match/cmake-build-debug/FDCM" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/bisheng/final_paper/FDCM _match/cmake-build-debug"/>
+				<Option output="/home/bisheng/final paper/Mylab/FDCM _match/cmake-build-debug/FDCM" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/bisheng/final paper/Mylab/FDCM _match/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/opt/ros/kinetic/include/opencv-3.3.1-dev"/>
-					<Add directory="/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv"/>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/home/bisheng/final_paper/FDCM\ _match/cmake-build-debug/Makefile&quot;  VERBOSE=1 FDCM/fast"/>
-					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/bisheng/final_paper/FDCM\ _match/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j6 -f &quot;/home/bisheng/final_paper/FDCM\ _match/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j6 -f &quot;/home/bisheng/final_paper/FDCM\ _match/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/bisheng/final\ paper/Mylab/FDCM\ _match/cmake-build-debug/Makefile&quot;  VERBOSE=1 FDCM/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/bisheng/final\ paper/Mylab/FDCM\ _match/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/bisheng/final\ paper/Mylab/FDCM\ _match/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/bisheng/final\ paper/Mylab/FDCM\ _match/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/bisheng/final_paper/FDCM _match/cmake-build-debug"/>
+				<Option working_dir="/home/bisheng/final paper/Mylab/FDCM _match/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/home/bisheng/final_paper/FDCM\ _match/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/bisheng/final_paper/FDCM\ _match/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j6 -f &quot;/home/bisheng/final_paper/FDCM\ _match/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j6 -f &quot;/home/bisheng/final_paper/FDCM\ _match/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/bisheng/final\ paper/Mylab/FDCM\ _match/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/bisheng/final\ paper/Mylab/FDCM\ _match/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/bisheng/final\ paper/Mylab/FDCM\ _match/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/bisheng/final\ paper/Mylab/FDCM\ _match/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/bisheng/final_paper/FDCM _match/IprovedFDCM.cpp">
+		<Unit filename="/home/bisheng/final paper/Mylab/FDCM _match/ILSD.h">
 			<Option target="FDCM"/>
 		</Unit>
-		<Unit filename="/home/bisheng/final_paper/FDCM _match/IprovedFDCM.h">
+		<Unit filename="/home/bisheng/final paper/Mylab/FDCM _match/IprovedFDCM.cpp">
 			<Option target="FDCM"/>
 		</Unit>
-		<Unit filename="/home/bisheng/final_paper/FDCM _match/main.cpp">
+		<Unit filename="/home/bisheng/final paper/Mylab/FDCM _match/IprovedFDCM.h">
 			<Option target="FDCM"/>
 		</Unit>
-		<Unit filename="/home/bisheng/final_paper/FDCM _match/CMakeLists.txt">
+		<Unit filename="/home/bisheng/final paper/Mylab/FDCM _match/main.cpp">
+			<Option target="FDCM"/>
+		</Unit>
+		<Unit filename="/home/bisheng/final paper/Mylab/FDCM _match/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/home/bisheng/final_paper/FDCM _match/../../../../opt/ros/kinetic/share/OpenCV-3.3.1-dev/OpenCVConfig-version.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\OpenCV-3.3.1-dev\"/>
+		<Unit filename="/home/bisheng/final paper/Mylab/FDCM _match/../../../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\OpenCV\"/>
 		</Unit>
-		<Unit filename="/home/bisheng/final_paper/FDCM _match/../../../../opt/ros/kinetic/share/OpenCV-3.3.1-dev/OpenCVConfig.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\OpenCV-3.3.1-dev\"/>
+		<Unit filename="/home/bisheng/final paper/Mylab/FDCM _match/../../../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\OpenCV\"/>
 		</Unit>
-		<Unit filename="/home/bisheng/final_paper/FDCM _match/../../../../opt/ros/kinetic/share/OpenCV-3.3.1-dev/OpenCVModules-release.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\OpenCV-3.3.1-dev\"/>
+		<Unit filename="/home/bisheng/final paper/Mylab/FDCM _match/../../../../../usr/local/share/OpenCV/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\OpenCV\"/>
 		</Unit>
-		<Unit filename="/home/bisheng/final_paper/FDCM _match/../../../../opt/ros/kinetic/share/OpenCV-3.3.1-dev/OpenCVModules.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\OpenCV-3.3.1-dev\"/>
+		<Unit filename="/home/bisheng/final paper/Mylab/FDCM _match/../../../../../usr/local/share/OpenCV/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\OpenCV\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

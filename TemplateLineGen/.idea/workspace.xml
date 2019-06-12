@@ -12,7 +12,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a467d81-cd29-437e-a349-6297ca592f6e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Icosphere" beforeDir="false" afterPath="$PROJECT_DIR$/../Icosphere" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FDCM _match/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FDCM _match/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FDCM _match/ILSD.h" beforeDir="false" afterPath="$PROJECT_DIR$/../FDCM _match/ILSD.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FDCM _match/IprovedFDCM.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../FDCM _match/IprovedFDCM.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FDCM _match/cmake-build-debug/CMakeFiles/FDCM.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../FDCM _match/cmake-build-debug/CMakeFiles/FDCM.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FDCM _match/cmake-build-debug/CMakeFiles/FDCM.dir/IprovedFDCM.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../FDCM _match/cmake-build-debug/CMakeFiles/FDCM.dir/IprovedFDCM.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FDCM _match/cmake-build-debug/CMakeFiles/FDCM.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../FDCM _match/cmake-build-debug/CMakeFiles/FDCM.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FDCM _match/cmake-build-debug/FDCM" beforeDir="false" afterPath="$PROJECT_DIR$/../FDCM _match/cmake-build-debug/FDCM" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FDCM _match/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../FDCM _match/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetMask/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GetMask/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetMask/cmake-build-debug/CMakeFiles/lab.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../GetMask/cmake-build-debug/CMakeFiles/lab.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetMask/cmake-build-debug/lab" beforeDir="false" afterPath="$PROJECT_DIR$/../GetMask/cmake-build-debug/lab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetMask/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../GetMask/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../I-LSD/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../I-LSD/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,7 +43,7 @@
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
-              <caret line="15" column="61" selection-start-line="15" selection-start-column="61" selection-end-line="15" selection-end-column="61" />
+              <caret line="15" column="69" selection-start-line="15" selection-start-column="69" selection-end-line="15" selection-end-column="69" />
             </state>
           </provider>
         </entry>
@@ -39,8 +51,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="294" column="42" lean-forward="true" selection-start-line="294" selection-start-column="42" selection-end-line="294" selection-end-column="42" />
+            <state relative-caret-position="83">
+              <caret line="56" column="37" lean-forward="true" selection-start-line="56" selection-start-column="37" selection-end-line="56" selection-end-column="37" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -54,7 +66,6 @@
     <findStrings>
       <find>fout</find>
       <find>config</find>
-      <find>cout</find>
       <find>cout</find>
     </findStrings>
   </component>
@@ -79,11 +90,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="65" />
-    <option name="y" value="24" />
-    <option name="width" value="1855" />
-    <option name="height" value="1056" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="99" />
+    <option name="y" value="288" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -96,8 +107,9 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../FDCM" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -132,27 +144,29 @@
       <updated>1560234248114</updated>
       <workItem from="1560234249618" duration="9560000" />
       <workItem from="1560249403273" duration="8573000" />
+      <workItem from="1560303787415" duration="3454000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18133000" />
+    <option name="totallyTimeSpent" value="21651000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1855" height="1056" extended-state="0" />
+    <frame x="67" y="25" width="1533" height="1175" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25262576" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2528581" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3573735" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35659656" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39827773" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.32831" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.32791588" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" />
@@ -171,14 +185,14 @@
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="15" column="61" selection-start-line="15" selection-start-column="61" selection-end-line="15" selection-end-column="61" />
+          <caret line="15" column="69" selection-start-line="15" selection-start-column="69" selection-end-line="15" selection-end-column="69" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="294" column="42" lean-forward="true" selection-start-line="294" selection-start-column="42" selection-end-line="294" selection-end-column="42" />
+        <state relative-caret-position="83">
+          <caret line="56" column="37" lean-forward="true" selection-start-line="56" selection-start-column="37" selection-end-line="56" selection-end-column="37" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>

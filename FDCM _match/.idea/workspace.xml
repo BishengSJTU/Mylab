@@ -12,8 +12,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25da7d79-2e59-4561-ba95-c41d8831e56f" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Icosphere" beforeDir="false" afterPath="$PROJECT_DIR$/../Icosphere" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/ILSD.h" beforeDir="false" afterPath="$PROJECT_DIR$/ILSD.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IprovedFDCM.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/IprovedFDCM.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetMask/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GetMask/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetMask/cmake-build-debug/CMakeFiles/lab.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../GetMask/cmake-build-debug/CMakeFiles/lab.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetMask/cmake-build-debug/lab" beforeDir="false" afterPath="$PROJECT_DIR$/../GetMask/cmake-build-debug/lab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetMask/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../GetMask/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../I-LSD/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../I-LSD/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TemplateLineGen/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TemplateLineGen/.idea/workspace.xml" afterDir="false" />
+>>>>>>> 6c69127a7613b2953e66ae5a39795ee7d698ed22
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,19 +49,33 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-589">
+              <caret line="48" column="32" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#16#0" expanded="true" />
+                <element signature="e#571#677#0" expanded="true" />
+                <marker date="1560326588052" expanded="true" signature="3996:4028" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/IprovedFDCM.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3990">
-              <caret line="210" column="29" selection-start-line="210" selection-start-column="29" selection-end-line="210" selection-end-column="29" />
+            <state relative-caret-position="-155">
+              <caret line="165" column="45" selection-start-line="165" selection-start-column="44" selection-end-line="165" selection-end-column="45" />
               <folding>
+                <element signature="e#0#24#0" expanded="true" />
                 <element signature="e#490#642#0" />
                 <element signature="e#643#1226#0" />
                 <element signature="e#1227#1467#0" />
                 <element signature="e#1468#1660#0" />
                 <element signature="e#1662#1794#0" />
                 <element signature="e#1795#2129#0" />
-                <element signature="e#2975#5352#0" />
               </folding>
             </state>
           </provider>
@@ -58,8 +84,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/IprovedFDCM.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="485">
-              <caret line="41" column="21" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="21" />
+            <state relative-caret-position="418">
+              <caret line="42" column="20" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -67,14 +93,18 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/main.cpp">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ILSD.h">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="183">
               <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+=======
+            <state relative-caret-position="437">
+              <caret line="282" column="33" selection-start-line="282" selection-start-column="33" selection-end-line="282" selection-end-column="33" />
+>>>>>>> 6c69127a7613b2953e66ae5a39795ee7d698ed22
               <folding>
-                <element signature="e#0#16#0" expanded="true" />
-                <element signature="e#441#513#0" expanded="true" />
+                <element signature="e#82#112#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -85,27 +115,35 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>Match</find>
-      <find>minSum</find>
       <find>The matching Cos</find>
       <find>createLineSegmentDetector</find>
-      <find>lenSum</find>
       <find>DWORD</find>
       <find>order</find>
-      <find>line</find>
-      <find>ondistTrans</find>
       <find>DBL_MIN</find>
       <find>labels</find>
       <find>distanceTransform</find>
       <find>Maxlabels</find>
       <find>lineSortCut</find>
-      <find>Gloable_th</find>
       <find>maskSize0</find>
       <find>maskSize</find>
-      <find>imgshow</find>
-      <find>showMatch</find>
       <find>Template</find>
       <find>ScrLines</find>
       <find>Qlines</find>
+      <find>score</find>
+      <find>lenSum</find>
+      <find>ondistTrans</find>
+      <find>Qorder</find>
+      <find>minsum</find>
+      <find>cout</find>
+      <find>image_th</find>
+      <find>100</find>
+      <find>minSum</find>
+      <find>Gloable_th</find>
+      <find>imshow</find>
+      <find>line</find>
+      <find>imgshow</find>
+      <find>showMatch</find>
+      <find>lineMatch</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -114,18 +152,19 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/ILSD.h" />
         <option value="$PROJECT_DIR$/IprovedFDCM.h" />
         <option value="$PROJECT_DIR$/IprovedFDCM.cpp" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/main.cpp" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-407" />
-    <option name="y" value="-21" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="99" />
+    <option name="y" value="288" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -133,13 +172,24 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="FDCM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FDCM _match" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../I-LSD" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -178,29 +228,43 @@
       <workItem from="1557312800916" duration="157000" />
       <workItem from="1560166331127" duration="605000" />
       <workItem from="1560260745218" duration="814000" />
+<<<<<<< HEAD
       <workItem from="1560262081312" duration="2856000" />
+=======
+      <workItem from="1560262081312" duration="2187000" />
+      <workItem from="1560302494753" duration="504000" />
+      <workItem from="1560303235971" duration="15457000" />
+>>>>>>> 6c69127a7613b2953e66ae5a39795ee7d698ed22
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="47117000" />
+=======
+    <option name="totallyTimeSpent" value="62409000" />
+>>>>>>> 6c69127a7613b2953e66ae5a39795ee7d698ed22
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
+    <frame x="67" y="25" width="1533" height="1175" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26755112" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18022865" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.3291536" />
+=======
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.3288719" />
+>>>>>>> 6c69127a7613b2953e66ae5a39795ee7d698ed22
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39916405" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.4997236" weight="0.3291536" />
+      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.4997236" weight="0.3288719" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50082916" side_tool="true" weight="0.3291536" />
       <window_info anchor="bottom" id="Version Control" order="11" />
@@ -236,48 +300,11 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>50</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/IprovedFDCM.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3990">
-          <caret line="210" column="29" selection-start-line="210" selection-start-column="29" selection-end-line="210" selection-end-column="29" />
-          <folding>
-            <element signature="e#490#642#0" />
-            <element signature="e#643#1226#0" />
-            <element signature="e#1227#1467#0" />
-            <element signature="e#1468#1660#0" />
-            <element signature="e#1662#1794#0" />
-            <element signature="e#1795#2129#0" />
-            <element signature="e#2975#5352#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/local/include/yaml-cpp/node/impl.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
           <caret line="131" selection-start-line="131" selection-end-line="131" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IprovedFDCM.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="41" column="21" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -288,13 +315,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ILSD.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="282" column="33" selection-start-line="282" selection-start-column="33" selection-end-line="282" selection-end-column="33" />
+          <folding>
+            <element signature="e#82#112#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IprovedFDCM.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="42" column="20" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IprovedFDCM.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-155">
+          <caret line="165" column="45" selection-start-line="165" selection-start-column="44" selection-end-line="165" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+            <element signature="e#490#642#0" />
+            <element signature="e#643#1226#0" />
+            <element signature="e#1227#1467#0" />
+            <element signature="e#1468#1660#0" />
+            <element signature="e#1662#1794#0" />
+            <element signature="e#1795#2129#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="183">
           <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+=======
+        <state relative-caret-position="-589">
+          <caret line="48" column="32" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="32" />
+>>>>>>> 6c69127a7613b2953e66ae5a39795ee7d698ed22
           <folding>
             <element signature="e#0#16#0" expanded="true" />
-            <element signature="e#441#513#0" expanded="true" />
+            <element signature="e#571#677#0" expanded="true" />
+            <marker date="1560326588052" expanded="true" signature="3996:4028" ph="..." />
           </folding>
         </state>
       </provider>

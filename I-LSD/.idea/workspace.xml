@@ -12,69 +12,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="237c67ce-9267-4ce0-ab9b-2bd48beca798" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../TemplateLineGen/.idea/TemplateLineGen.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FDCM _match/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FDCM _match/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FDCM _match/ILSD.h" beforeDir="false" afterPath="$PROJECT_DIR$/../FDCM _match/ILSD.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FDCM _match/IprovedFDCM.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../FDCM _match/IprovedFDCM.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FDCM _match/cmake-build-debug/CMakeFiles/FDCM.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../FDCM _match/cmake-build-debug/CMakeFiles/FDCM.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FDCM _match/cmake-build-debug/CMakeFiles/FDCM.dir/IprovedFDCM.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../FDCM _match/cmake-build-debug/CMakeFiles/FDCM.dir/IprovedFDCM.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FDCM _match/cmake-build-debug/CMakeFiles/FDCM.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../FDCM _match/cmake-build-debug/CMakeFiles/FDCM.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FDCM _match/cmake-build-debug/FDCM" beforeDir="false" afterPath="$PROJECT_DIR$/../FDCM _match/cmake-build-debug/FDCM" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FDCM _match/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../FDCM _match/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../GetMask/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GetMask/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GetMask/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../GetMask/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GetMask/cmake-build-debug/CMakeFiles/3.13.2/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GetMask/cmake-build-debug/CMakeFiles/3.13.2/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GetMask/cmake-build-debug/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GetMask/cmake-build-debug/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GetMask/cmake-build-debug/CMakeFiles/3.13.2/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GetMask/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GetMask/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdC/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GetMask/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GetMask/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdCXX/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GetMask/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../GetMask/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GetMask/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../GetMask/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GetMask/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../GetMask/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GetMask/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../GetMask/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GetMask/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../GetMask/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GetMask/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../GetMask/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GetMask/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../GetMask/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GetMask/cmake-build-debug/CMakeFiles/lab.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../GetMask/cmake-build-debug/CMakeFiles/lab.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GetMask/cmake-build-debug/CMakeFiles/lab.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../GetMask/cmake-build-debug/CMakeFiles/lab.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GetMask/cmake-build-debug/CMakeFiles/lab.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../GetMask/cmake-build-debug/CMakeFiles/lab.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GetMask/cmake-build-debug/CMakeFiles/lab.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../GetMask/cmake-build-debug/CMakeFiles/lab.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GetMask/cmake-build-debug/CMakeFiles/lab.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../GetMask/cmake-build-debug/CMakeFiles/lab.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GetMask/cmake-build-debug/CMakeFiles/lab.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../GetMask/cmake-build-debug/CMakeFiles/lab.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GetMask/cmake-build-debug/CMakeFiles/lab.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../GetMask/cmake-build-debug/CMakeFiles/lab.dir/link.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../GetMask/cmake-build-debug/CMakeFiles/lab.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../GetMask/cmake-build-debug/CMakeFiles/lab.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GetMask/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../GetMask/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GetMask/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../GetMask/cmake-build-debug/cmake_install.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../GetMask/cmake-build-debug/lab" beforeDir="false" afterPath="$PROJECT_DIR$/../GetMask/cmake-build-debug/lab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GetMask/cmake-build-debug/lab.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../GetMask/cmake-build-debug/lab.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../GetMask/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../GetMask/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdC/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdCXX/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LSD.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LSD.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LSD.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LSD.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LSD.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LSD.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LSD.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LSD.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LSD.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LSD.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LSD.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LSD.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LSD.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LSD.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LSD.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LSD.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/LSD" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/LSD" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/LSD.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/LSD.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TemplateLineGen/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TemplateLineGen/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -107,7 +57,7 @@
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
-              <caret line="15" column="41" lean-forward="true" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+              <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -115,8 +65,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="24" column="12" lean-forward="true" selection-end-line="307" />
+            <state relative-caret-position="-4102">
+              <caret line="53" column="61" lean-forward="true" selection-start-line="53" selection-start-column="61" selection-end-line="53" selection-end-column="61" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -127,8 +77,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ILSD.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+            <state relative-caret-position="266">
+              <caret line="14" column="15" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="15" />
+              <folding>
+                <element signature="e#80#110#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -152,6 +105,7 @@
       <find>max_idx</find>
       <find>idxLens</find>
       <find>image</find>
+      <find>imshow</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -167,11 +121,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="74" />
-    <option name="y" value="34" />
-    <option name="width" value="1399" />
-    <option name="height" value="992" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="99" />
+    <option name="y" value="288" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -232,28 +186,31 @@
       <workItem from="1559891758105" duration="6084000" />
       <workItem from="1560166118502" duration="211000" />
       <workItem from="1560230965171" duration="6183000" />
+      <workItem from="1560303342180" duration="443000" />
+      <workItem from="1560306949495" duration="30000" />
+      <workItem from="1560307036520" duration="2490000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77864000" />
+    <option name="totallyTimeSpent" value="80827000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="74" y="34" width="1399" height="992" extended-state="0" />
+    <frame x="67" y="25" width="1533" height="1175" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1722099" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16408877" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.36384705" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36328873" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39980915" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.3244496" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.3240918" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" />
@@ -269,10 +226,20 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file:///usr/include/c++/7/ext/new_allocator.h" />
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ILSD.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+        <state relative-caret-position="266">
+          <caret line="14" column="15" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="15" />
+          <folding>
+            <element signature="e#80#110#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -283,17 +250,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="41" lean-forward="true" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="24" column="12" lean-forward="true" selection-end-line="307" />
+        <state relative-caret-position="-4102">
+          <caret line="53" column="61" lean-forward="true" selection-start-line="53" selection-start-column="61" selection-end-line="53" selection-end-column="61" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>

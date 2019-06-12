@@ -9,7 +9,7 @@ set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_SOURCE_DIR}/cmake/")
 find_package(OpenCV REQUIRED)
 include_directories(${OpenCV_INCLUDE_DIRS})
 
-add_executable(FDCM main.cpp IprovedFDCM.h IprovedFDCM.cpp)
+add_executable(FDCM main.cpp IprovedFDCM.h IprovedFDCM.cpp ILSD.h)
 # add libs you need
 set(OpenCV_LIBS opencv_core opencv_imgproc opencv_highgui opencv_imgcodecs opencv_videoio    )
 # linking

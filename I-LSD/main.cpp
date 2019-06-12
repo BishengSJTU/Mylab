@@ -1,7 +1,6 @@
 #include "opencv2/imgproc.hpp"
 #include "opencv2/imgcodecs.hpp"
 #include "opencv2/highgui.hpp"
-#include "ILSD.h"
 #include <iostream>
 #include <algorithm>
 #include <set>
@@ -63,26 +62,14 @@ int main()
     int MAX_LENS = 3;
     bool useRefine = true;
     bool useCanny = true;
-    Mat image = imread("r400num0gamma0.bmp");
-//    resize(image, image, Size(image.rows/8, image.cols/5));
+    Mat image = imread("image1.png");
+
     if( image.empty() )
     {
         cout << "Unable to load Image" << endl; return 1;
     }
     imshow("Source Image", image);
 
-    Mat cannyI;
-    Canny(image, cannyI, 140, 250, 3 );
-    imshow("Canny Image", cannyI);
-
-    Mat imageBf;
-    bilateralFilter(image, imageBf, 5, 10, 10);
-    imshow("bi", imageBf);
-    //双边滤波
-    Mat imageEnhance;
-    Mat kernel = (Mat_<float>(3, 3) << 0, -1, 0, -1, 4, -1, 0, -1, 0);
-    filter2D(imageBf, imageEnhance, CV_8UC3, kernel);
-    imshow("iE", imageEnhance);
 
     Mat resImage;
     cvtColor(image, resImage, CV_RGB2GRAY);
@@ -154,6 +141,8 @@ int main()
         double k = tan(angle * CV_PI / 180);
 
         int discreteAngle = angle / 10;
+        if(discreteAngle > 17 )
+            discreteAngle = 17;
 
         double x0 = (x1 + x2) / 2;
         cout << x1 << " " << x2 << " " << x0 << endl;

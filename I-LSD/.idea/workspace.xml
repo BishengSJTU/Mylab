@@ -13,81 +13,18 @@
   <component name="ChangeListManager">
     <list default="true" id="237c67ce-9267-4ce0-ab9b-2bd48beca798" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../FDCM _match/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FDCM _match/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FDCM _match/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../FDCM _match/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FDCM _match/ILSD.h" beforeDir="false" afterPath="$PROJECT_DIR$/../FDCM _match/ILSD.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../FDCM _match/IprovedFDCM.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../FDCM _match/IprovedFDCM.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FDCM _match/IprovedFDCM.h" beforeDir="false" afterPath="$PROJECT_DIR$/../FDCM _match/IprovedFDCM.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FDCM _match/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../FDCM _match/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FDCM _match/cmake-build-debug/CMakeFiles/3.13.2/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FDCM _match/cmake-build-debug/CMakeFiles/3.13.2/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FDCM _match/cmake-build-debug/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FDCM _match/cmake-build-debug/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FDCM _match/cmake-build-debug/CMakeFiles/3.13.2/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FDCM _match/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FDCM _match/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdC/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FDCM _match/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FDCM _match/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdCXX/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FDCM _match/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../FDCM _match/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FDCM _match/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../FDCM _match/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../FDCM _match/cmake-build-debug/CMakeFiles/FDCM.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../FDCM _match/cmake-build-debug/CMakeFiles/FDCM.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FDCM _match/cmake-build-debug/CMakeFiles/FDCM.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../FDCM _match/cmake-build-debug/CMakeFiles/FDCM.dir/DependInfo.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../FDCM _match/cmake-build-debug/CMakeFiles/FDCM.dir/IprovedFDCM.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../FDCM _match/cmake-build-debug/CMakeFiles/FDCM.dir/IprovedFDCM.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FDCM _match/cmake-build-debug/CMakeFiles/FDCM.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../FDCM _match/cmake-build-debug/CMakeFiles/FDCM.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FDCM _match/cmake-build-debug/CMakeFiles/FDCM.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../FDCM _match/cmake-build-debug/CMakeFiles/FDCM.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FDCM _match/cmake-build-debug/CMakeFiles/FDCM.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../FDCM _match/cmake-build-debug/CMakeFiles/FDCM.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FDCM _match/cmake-build-debug/CMakeFiles/FDCM.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../FDCM _match/cmake-build-debug/CMakeFiles/FDCM.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FDCM _match/cmake-build-debug/CMakeFiles/FDCM.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../FDCM _match/cmake-build-debug/CMakeFiles/FDCM.dir/link.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../FDCM _match/cmake-build-debug/CMakeFiles/FDCM.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../FDCM _match/cmake-build-debug/CMakeFiles/FDCM.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FDCM _match/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../FDCM _match/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FDCM _match/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../FDCM _match/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FDCM _match/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../FDCM _match/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FDCM _match/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../FDCM _match/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FDCM _match/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../FDCM _match/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../FDCM _match/cmake-build-debug/FDCM" beforeDir="false" afterPath="$PROJECT_DIR$/../FDCM _match/cmake-build-debug/FDCM" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FDCM _match/cmake-build-debug/FDCM.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../FDCM _match/cmake-build-debug/FDCM.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FDCM _match/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../FDCM _match/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FDCM _match/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../FDCM _match/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FDCM _match/cmake-build-debug/line.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../FDCM _match/cmake-build-debug/line.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../FDCM _match/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../FDCM _match/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LSD.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LSD.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LSD.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LSD.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LSD.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LSD.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LSD.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LSD.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/LSD" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/LSD" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LSD/.main.cpp.swp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetMask/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GetMask/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetMask/cmake-build-debug/CMakeFiles/lab.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../GetMask/cmake-build-debug/CMakeFiles/lab.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetMask/cmake-build-debug/lab" beforeDir="false" afterPath="$PROJECT_DIR$/../GetMask/cmake-build-debug/lab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetMask/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../GetMask/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TemplateLineGen/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TemplateLineGen/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TemplateLineGen/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../TemplateLineGen/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TemplateLineGen/cmake-build-debug/CMakeFiles/3.13.2/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TemplateLineGen/cmake-build-debug/CMakeFiles/3.13.2/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TemplateLineGen/cmake-build-debug/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TemplateLineGen/cmake-build-debug/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TemplateLineGen/cmake-build-debug/CMakeFiles/3.13.2/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TemplateLineGen/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TemplateLineGen/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdC/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TemplateLineGen/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TemplateLineGen/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdCXX/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TemplateLineGen/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../TemplateLineGen/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TemplateLineGen/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../TemplateLineGen/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TemplateLineGen/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../TemplateLineGen/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TemplateLineGen/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../TemplateLineGen/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TemplateLineGen/cmake-build-debug/CMakeFiles/TLG.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../TemplateLineGen/cmake-build-debug/CMakeFiles/TLG.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TemplateLineGen/cmake-build-debug/CMakeFiles/TLG.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../TemplateLineGen/cmake-build-debug/CMakeFiles/TLG.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TemplateLineGen/cmake-build-debug/CMakeFiles/TLG.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../TemplateLineGen/cmake-build-debug/CMakeFiles/TLG.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TemplateLineGen/cmake-build-debug/CMakeFiles/TLG.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../TemplateLineGen/cmake-build-debug/CMakeFiles/TLG.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TemplateLineGen/cmake-build-debug/CMakeFiles/TLG.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../TemplateLineGen/cmake-build-debug/CMakeFiles/TLG.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TemplateLineGen/cmake-build-debug/CMakeFiles/TLG.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../TemplateLineGen/cmake-build-debug/CMakeFiles/TLG.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TemplateLineGen/cmake-build-debug/CMakeFiles/TLG.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../TemplateLineGen/cmake-build-debug/CMakeFiles/TLG.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TemplateLineGen/cmake-build-debug/CMakeFiles/TLG.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../TemplateLineGen/cmake-build-debug/CMakeFiles/TLG.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TemplateLineGen/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../TemplateLineGen/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TemplateLineGen/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../TemplateLineGen/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TemplateLineGen/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../TemplateLineGen/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TemplateLineGen/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../TemplateLineGen/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TemplateLineGen/cmake-build-debug/TLG" beforeDir="false" afterPath="$PROJECT_DIR$/../TemplateLineGen/cmake-build-debug/TLG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TemplateLineGen/cmake-build-debug/TLG.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../TemplateLineGen/cmake-build-debug/TLG.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TemplateLineGen/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../TemplateLineGen/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TemplateLineGen/cmake-build-debug/line.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../TemplateLineGen/cmake-build-debug/line.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TemplateLineGen/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../TemplateLineGen/main.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -128,8 +65,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="63" column="25" lean-forward="true" selection-start-line="63" selection-start-column="25" selection-end-line="63" selection-end-column="25" />
+            <state relative-caret-position="-4102">
+              <caret line="53" column="61" lean-forward="true" selection-start-line="53" selection-start-column="61" selection-end-line="53" selection-end-column="61" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -185,10 +122,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="74" />
-    <option name="y" value="34" />
-    <option name="width" value="1399" />
-    <option name="height" value="992" />
+    <option name="x" value="99" />
+    <option name="y" value="288" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -203,7 +140,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../GetMask" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
@@ -251,12 +188,12 @@
       <workItem from="1560230965171" duration="6183000" />
       <workItem from="1560303342180" duration="443000" />
       <workItem from="1560306949495" duration="30000" />
-      <workItem from="1560307036520" duration="1281000" />
+      <workItem from="1560307036520" duration="2490000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79618000" />
+    <option name="totallyTimeSpent" value="80827000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1533" height="1175" extended-state="6" />
@@ -315,8 +252,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="63" column="25" lean-forward="true" selection-start-line="63" selection-start-column="25" selection-end-line="63" selection-end-column="25" />
+        <state relative-caret-position="-4102">
+          <caret line="53" column="61" lean-forward="true" selection-start-line="53" selection-start-column="61" selection-end-line="53" selection-end-column="61" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>

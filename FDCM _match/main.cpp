@@ -31,21 +31,22 @@ int main(int argc, char* argv[]) {
     YAML::Node config = YAML::LoadFile("line.yaml");
 
     //对带匹配的源图片进行循环
-    for (int image_th = 1; image_th < 2; image_th++) {
+    for (int image_th = 4; image_th < 5; image_th++) {
 
         double mincost = MAXCOST;
         int minidx = 0;
 
 
         //对模板循环
-        for(int template_th = 0; template_th < 1; template_th++) {
+        for(int template_th = 0; template_th < 1; template_th++) { //max 2562
 //        Mat Template = imread("1.jpg", 0);
 
             //从yaml文件中读入直线数据
+            cout << template_th << "th  image" << endl;
             vector<Vec4f> ScrLines, Qlines;
 
             vector<vector<float> > myline;
-            myline = config["2237"].as<vector<vector<float>>>();
+            myline = config["527"].as<vector<vector<float>>>();//527
             for (int i = 0; i < myline.size(); i++) {
                 Vec4f line;
                 for (int j = 0; j < myline[i].size(); j++)
@@ -70,7 +71,7 @@ int main(int argc, char* argv[]) {
 
 
             Mat Src;
-            Src = imread("image" + to_string(image_th) + ".png");
+            Src = imread("image" + to_string(image_th) + ".jpg");
 //            imshow("srcimage", Src);
 //            waitKey(0);
             if (Src.cols == 0) {
@@ -112,7 +113,7 @@ int main(int argc, char* argv[]) {
             }
 //            cout << cost << endl;
 
-            imshow("Src", Src);
+//            imshow("Src", Src);
 
             waitKey(0);
         }

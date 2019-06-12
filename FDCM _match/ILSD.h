@@ -280,7 +280,7 @@ vector<Vec4f> getLine(Mat image)
     average_len = total_len/line.size();
     for(int i = 0; i < len.size(); i++)
     {
-        if(len[i] > average_len)
+        if(len[i] > max_len * 0.1)
             cut_line.push_back(line[i]);
     }
 

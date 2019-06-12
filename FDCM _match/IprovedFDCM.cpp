@@ -215,7 +215,7 @@ void  IprovedFDCM::showMatch(Mat distmap, Vec4f matchline, Vec4f curQline, int m
 		pt1.y = lines.at(i)[1] ;
 		pt2.x = lines.at(i)[2] ;
 		pt2.y = lines.at(i)[3] ;
-		line(distmap, pt1, pt2, CV_RGB(250, 0, 250), 2);
+		line(distmap, pt1, pt2, CV_RGB(250, 0, 250), 1);
 	}
 	
 }
@@ -425,11 +425,11 @@ double IprovedFDCM::ondistTrans(Mat src, vector<FastLenOrder>Qorder, vector<Vec4
                     d[j * 3 + 2] = (uchar) r;
                 }
             }
-            labels.convertTo(labels, CV_8U);
-            imshow("labels", labels);
+//            labels.convertTo(labels, CV_8U);
+//            imshow("labels", labels);
         }
         resize(dist8u, dist8u, Size(dist8u.cols / 2, dist8u.rows / 2));
-        //imshow("Distance Map", dist8u);
+        imshow("Distance Map", dist8u);
         return minSum;
     }
 }

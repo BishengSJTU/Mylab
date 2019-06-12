@@ -174,8 +174,11 @@ void  IprovedFDCM::lineMatch(Mat &dist, Mat &labelimg, double * LabelSlope, int 
 						angleErr = CV_PI - angleErr;
 					}
 
-					float i = dist.at<float>(y, x);
-					result[dcount] += dist.at<float>(y, x) + lamda*angleErr; //chamfer distance trans 匹配的主要公式
+					float DIST = dist.at<float>(y, x);
+					if(DIST > 1e-5)
+						cout << DIST << endl;
+					//11111111111111111111111111111111111111111111111111111此处有错！！！！！！！！！！！！！！！！！！！！！
+					result[dcount] += dist.at<float>(y, x) + lamda*angleErr; //chamfer distance trans 匹配的主要公式!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 				}
 				else
 					result[dcount] += 100;//这个需要再议，但是不能让边缘最小  //图像外的点

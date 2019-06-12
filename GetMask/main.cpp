@@ -155,8 +155,8 @@ Mat maxArea(Mat src)
 
 }
 int main() {
-    string image_name = "image4.png";
-    string image_name2 = "image4.jpg";
+    string image_name = "r400num527gamma0.bmp";
+    string image_name2 = "r400num527gamma0.jpg";
     Mat src, lab, hsv;
     src = imread(image_name);
     cvtColor(src, lab, COLOR_BGR2Lab);

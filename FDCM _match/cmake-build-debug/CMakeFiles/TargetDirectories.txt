@@ -1,3 +1,0 @@
-/home/bisheng/final paper/Mylab/FDCM _match/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/bisheng/final paper/Mylab/FDCM _match/cmake-build-debug/CMakeFiles/FDCM.dir
-/home/bisheng/final paper/Mylab/FDCM _match/cmake-build-debug/CMakeFiles/edit_cache.dir

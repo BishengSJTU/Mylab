@@ -71,6 +71,16 @@ int main()
     bool useRefine = true;
     bool useCanny = true;
     int N =  2562;
+
+    Mat image = imread("./ico_template_m2_400/r400num0gamma0.bmp");
+    config["row"] = image.rows;
+    fout << config;
+    fout << endl;
+    config.reset();
+    config["col"] = image.cols;
+    fout << config;
+    fout << endl;
+
     for(int image_th = 0; image_th < N; image_th++) {
 
         config.reset();
@@ -278,7 +288,7 @@ int main()
         max_line.push_back(line[max_idx]);
         average_len = total_len / line.size();
         for (int i = 0; i < len.size(); i++) {
-            if (len[i] > max_len * 0.2)
+            if (len[i] > max_len * 0.1)
                 cut_line.push_back(line[i]);
         }
 
@@ -304,6 +314,8 @@ int main()
 
         config[to_string(image_th)] = writelines;
 
+//        imshow("1", lineImage);
+//        waitKey(0);
         fout << config;
         fout << endl;
         cout << "image" << image_th << "has been processed" << endl;

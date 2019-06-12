@@ -61,7 +61,7 @@ public:
 
     void lineSortCut(vector<Vec4f> &line, vector<FastLenOrder> &order, float lenth);
 
-    void ondistTrans(Mat src, vector<FastLenOrder> Qorder, vector<Vec4f> Qlines, vector<FastLenOrder> order,
+    double ondistTrans(Mat src, vector<FastLenOrder> Qorder, vector<Vec4f> Qlines, vector<FastLenOrder> order,
                      vector<Vec4f> lines, bool shows, double *rst);
 
     void Match(Vec4f matchline, Vec4f curQline, int minD, double *rst);

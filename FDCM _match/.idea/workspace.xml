@@ -12,11 +12,80 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25da7d79-2e59-4561-ba95-c41d8831e56f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../FDCM/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FDCM/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FDCM/cmake-build-debug/CMakeFiles/FDCM.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../FDCM/cmake-build-debug/CMakeFiles/FDCM.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FDCM/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../FDCM/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Icosphere" beforeDir="false" afterPath="$PROJECT_DIR$/../Icosphere" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IprovedFDCM.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/IprovedFDCM.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IprovedFDCM.h" beforeDir="false" afterPath="$PROJECT_DIR$/IprovedFDCM.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdC/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdCXX/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FDCM.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FDCM.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FDCM.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FDCM.dir/IprovedFDCM.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FDCM.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FDCM.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FDCM.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FDCM.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FDCM.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FDCM.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FDCM.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FDCM.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FDCM.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FDCM.dir/main.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FDCM.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/FDCM.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../I-LSD/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../I-LSD/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../I-LSD/cmake-build-debug/CMakeFiles/LSD.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../I-LSD/cmake-build-debug/CMakeFiles/LSD.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../I-LSD/cmake-build-debug/CMakeFiles/LSD.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../I-LSD/cmake-build-debug/CMakeFiles/LSD.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../I-LSD/cmake-build-debug/CMakeFiles/LSD.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../I-LSD/cmake-build-debug/CMakeFiles/LSD.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../I-LSD/cmake-build-debug/CMakeFiles/LSD.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../I-LSD/cmake-build-debug/CMakeFiles/LSD.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../I-LSD/cmake-build-debug/LSD" beforeDir="false" afterPath="$PROJECT_DIR$/../I-LSD/cmake-build-debug/LSD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../I-LSD/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../I-LSD/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LSD/.main.cpp.swp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../TemplateLineGen/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TemplateLineGen/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TemplateLineGen/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../TemplateLineGen/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TemplateLineGen/cmake-build-debug/CMakeFiles/3.13.2/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TemplateLineGen/cmake-build-debug/CMakeFiles/3.13.2/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TemplateLineGen/cmake-build-debug/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TemplateLineGen/cmake-build-debug/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TemplateLineGen/cmake-build-debug/CMakeFiles/3.13.2/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TemplateLineGen/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TemplateLineGen/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdC/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TemplateLineGen/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TemplateLineGen/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdCXX/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TemplateLineGen/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../TemplateLineGen/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TemplateLineGen/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../TemplateLineGen/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TemplateLineGen/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../TemplateLineGen/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TemplateLineGen/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../TemplateLineGen/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TemplateLineGen/cmake-build-debug/CMakeFiles/TLG.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../TemplateLineGen/cmake-build-debug/CMakeFiles/TLG.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TemplateLineGen/cmake-build-debug/CMakeFiles/TLG.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../TemplateLineGen/cmake-build-debug/CMakeFiles/TLG.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TemplateLineGen/cmake-build-debug/CMakeFiles/TLG.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../TemplateLineGen/cmake-build-debug/CMakeFiles/TLG.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TemplateLineGen/cmake-build-debug/CMakeFiles/TLG.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../TemplateLineGen/cmake-build-debug/CMakeFiles/TLG.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TemplateLineGen/cmake-build-debug/CMakeFiles/TLG.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../TemplateLineGen/cmake-build-debug/CMakeFiles/TLG.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TemplateLineGen/cmake-build-debug/CMakeFiles/TLG.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../TemplateLineGen/cmake-build-debug/CMakeFiles/TLG.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TemplateLineGen/cmake-build-debug/CMakeFiles/TLG.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../TemplateLineGen/cmake-build-debug/CMakeFiles/TLG.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TemplateLineGen/cmake-build-debug/CMakeFiles/TLG.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../TemplateLineGen/cmake-build-debug/CMakeFiles/TLG.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TemplateLineGen/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../TemplateLineGen/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TemplateLineGen/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../TemplateLineGen/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TemplateLineGen/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../TemplateLineGen/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TemplateLineGen/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../TemplateLineGen/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TemplateLineGen/cmake-build-debug/TLG" beforeDir="false" afterPath="$PROJECT_DIR$/../TemplateLineGen/cmake-build-debug/TLG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TemplateLineGen/cmake-build-debug/TLG.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../TemplateLineGen/cmake-build-debug/TLG.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TemplateLineGen/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../TemplateLineGen/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TemplateLineGen/cmake-build-debug/line.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../TemplateLineGen/cmake-build-debug/line.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TemplateLineGen/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../TemplateLineGen/main.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,11 +110,26 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="116" column="23" lean-forward="true" selection-start-line="114" selection-start-column="31" selection-end-line="116" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#16#0" expanded="true" />
+                <element signature="e#571#677#0" expanded="true" />
+                <marker date="1560311184879" expanded="true" signature="3923:3955" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/IprovedFDCM.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3990">
-              <caret line="210" column="29" selection-start-line="210" selection-start-column="29" selection-end-line="210" selection-end-column="29" />
+            <state relative-caret-position="359">
+              <caret line="429" column="9" lean-forward="true" selection-start-line="429" selection-start-column="9" selection-end-line="429" selection-end-column="9" />
               <folding>
+                <element signature="e#0#24#0" expanded="true" />
                 <element signature="e#490#642#0" />
                 <element signature="e#643#1226#0" />
                 <element signature="e#1227#1467#0" />
@@ -61,7 +145,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/IprovedFDCM.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="485">
+            <state relative-caret-position="-2">
               <caret line="41" column="21" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="21" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
@@ -70,14 +154,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/main.cpp">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ILSD.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
+            <state relative-caret-position="639">
+              <caret line="140" column="21" selection-start-line="140" selection-start-column="21" selection-end-line="140" selection-end-column="21" />
               <folding>
-                <element signature="e#0#16#0" expanded="true" />
-                <element signature="e#441#513#0" expanded="true" />
+                <element signature="e#82#112#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -88,20 +171,16 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>Match</find>
-      <find>minSum</find>
       <find>The matching Cos</find>
       <find>createLineSegmentDetector</find>
-      <find>lenSum</find>
       <find>DWORD</find>
       <find>order</find>
       <find>line</find>
-      <find>ondistTrans</find>
       <find>DBL_MIN</find>
       <find>labels</find>
       <find>distanceTransform</find>
       <find>Maxlabels</find>
       <find>lineSortCut</find>
-      <find>Gloable_th</find>
       <find>maskSize0</find>
       <find>maskSize</find>
       <find>imgshow</find>
@@ -109,6 +188,15 @@
       <find>Template</find>
       <find>ScrLines</find>
       <find>Qlines</find>
+      <find>score</find>
+      <find>lenSum</find>
+      <find>imshow</find>
+      <find>minSum</find>
+      <find>ondistTrans</find>
+      <find>cout</find>
+      <find>Gloable_th</find>
+      <find>Qorder</find>
+      <find>image_th</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -117,18 +205,19 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/IprovedFDCM.h" />
-        <option value="$PROJECT_DIR$/IprovedFDCM.cpp" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/IprovedFDCM.h" />
+        <option value="$PROJECT_DIR$/ILSD.h" />
         <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/IprovedFDCM.cpp" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-407" />
-    <option name="y" value="-21" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="74" />
+    <option name="y" value="34" />
+    <option name="width" value="1399" />
+    <option name="height" value="992" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -136,13 +225,24 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="FDCM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FDCM _match" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../I-LSD" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -182,28 +282,30 @@
       <workItem from="1560166331127" duration="605000" />
       <workItem from="1560260745218" duration="814000" />
       <workItem from="1560262081312" duration="2187000" />
+      <workItem from="1560302494753" duration="504000" />
+      <workItem from="1560303235971" duration="7002000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46448000" />
+    <option name="totallyTimeSpent" value="53954000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
+    <frame x="67" y="25" width="1533" height="1175" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26755112" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27572292" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.3291536" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39916405" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.3288719" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39916405" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.4997236" weight="0.3291536" />
+      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.4997236" weight="0.3288719" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50082916" side_tool="true" weight="0.3291536" />
       <window_info anchor="bottom" id="Version Control" order="11" />
@@ -239,48 +341,11 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>50</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/IprovedFDCM.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3990">
-          <caret line="210" column="29" selection-start-line="210" selection-start-column="29" selection-end-line="210" selection-end-column="29" />
-          <folding>
-            <element signature="e#490#642#0" />
-            <element signature="e#643#1226#0" />
-            <element signature="e#1227#1467#0" />
-            <element signature="e#1468#1660#0" />
-            <element signature="e#1662#1794#0" />
-            <element signature="e#1795#2129#0" />
-            <element signature="e#2975#5352#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/local/include/yaml-cpp/node/impl.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
           <caret line="131" selection-start-line="131" selection-end-line="131" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IprovedFDCM.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="41" column="21" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -291,13 +356,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ILSD.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="639">
+          <caret line="140" column="21" selection-start-line="140" selection-start-column="21" selection-end-line="140" selection-end-column="21" />
+          <folding>
+            <element signature="e#82#112#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IprovedFDCM.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2">
+          <caret line="41" column="21" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
+        <state relative-caret-position="378">
+          <caret line="116" column="23" lean-forward="true" selection-start-line="114" selection-start-column="31" selection-end-line="116" selection-end-column="23" />
           <folding>
             <element signature="e#0#16#0" expanded="true" />
-            <element signature="e#441#513#0" expanded="true" />
+            <element signature="e#571#677#0" expanded="true" />
+            <marker date="1560311184879" expanded="true" signature="3923:3955" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IprovedFDCM.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="429" column="9" lean-forward="true" selection-start-line="429" selection-start-column="9" selection-end-line="429" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+            <element signature="e#490#642#0" />
+            <element signature="e#643#1226#0" />
+            <element signature="e#1227#1467#0" />
+            <element signature="e#1468#1660#0" />
+            <element signature="e#1662#1794#0" />
+            <element signature="e#1795#2129#0" />
+            <element signature="e#2975#5352#0" />
           </folding>
         </state>
       </provider>

@@ -1,4 +1,5 @@
 #include "IprovedFDCM.h"
+#include <math.h>
 IprovedFDCM::IprovedFDCM(void)
 {
 	colors [0] = Scalar(0, 0, 0);
@@ -238,7 +239,7 @@ void IprovedFDCM::Match(Vec4f matchline, Vec4f curQline, int minD, double* rst)
 	//cout << "rst is " << cita << "," << tx << "," << ty << "," << endl;
 	 
 }
-void IprovedFDCM::ondistTrans(Mat src, vector<FastLenOrder>Qorder, vector<Vec4f> Qlines, vector<FastLenOrder>order, vector<Vec4f> lines,bool shows, double* rst) {   //æ‡¿Î±‰ªª
+double IprovedFDCM::ondistTrans(Mat src, vector<FastLenOrder>Qorder, vector<Vec4f> Qlines, vector<FastLenOrder>order, vector<Vec4f> lines,bool shows, double* rst) {   //æ‡¿Î±‰ªª
     rst[0] = 0;
     int rows = src.rows;
     int cols = src.cols;
@@ -322,7 +323,9 @@ void IprovedFDCM::ondistTrans(Mat src, vector<FastLenOrder>Qorder, vector<Vec4f>
     int minD = 0;
     for (int i = 0; i < Qorder.size(); i++) {
         curQline = Qlines.at(Qorder.at(i).order);
-        for (int j = 0; j < order.size(); j++) {
+
+        double srcPreOrderLen = min((int)order.size(), 2);
+        for (int j = 0; j < srcPreOrderLen; j++) {
             if (Qorder.at(i).len < 0.8 * order.at(j).len)
                 continue;
             else if (Qorder.at(i).len > 1.2 * order.at(j).len)
@@ -422,11 +425,12 @@ void IprovedFDCM::ondistTrans(Mat src, vector<FastLenOrder>Qorder, vector<Vec4f>
                     d[j * 3 + 2] = (uchar) r;
                 }
             }
-            //labels.convertTo(labels, CV_8U);
-            //imshow("labels", labels);
+            labels.convertTo(labels, CV_8U);
+            imshow("labels", labels);
         }
         resize(dist8u, dist8u, Size(dist8u.cols / 2, dist8u.rows / 2));
-        imshow("Distance Map", dist8u);
+        //imshow("Distance Map", dist8u);
+        return minSum;
     }
 }
 

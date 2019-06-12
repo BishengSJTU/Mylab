@@ -1,3 +1,10 @@
+//
+// Created by bisheng on 19-6-12.
+//
+
+#ifndef FDCM_ILSD_H
+#define FDCM_ILSD_H
+
 #include "opencv2/imgproc.hpp"
 #include "opencv2/imgcodecs.hpp"
 #include "opencv2/highgui.hpp"
@@ -57,18 +64,16 @@ double LineAngle(double x1, double y1, double x2, double y2) {
     }
 }
 
-int main()
+vector<Vec4f> getLine(Mat image)
 {
     int MAX_LENS = 3;
-    bool useRefine = true;
-    bool useCanny = true;
-    Mat image = imread("image1.png");
 
     if( image.empty() )
     {
-        cout << "Unable to load Image" << endl; return 1;
+        cout << "Unable to load Image" << endl;
+        exit(0);
     }
-    imshow("Source Image", image);
+//    imshow("Source Image", image);
 
 
     Mat resImage;
@@ -123,7 +128,7 @@ int main()
     }
     sort(idxLens.begin(), idxLens.end(), mysort);
 
-    //å¯¹è§’åº¦è¿›è¡Œç¦»æ•£åŒ–ï¼Œå–ä¸Žé•¿åº¦å‰MAX_LENSçš„ç»„
+    //¶Ô½Ç¶È½øÐÐÀëÉ¢»¯£¬È¡Óë³¤¶ÈÇ°MAX_LENSµÄ×é
     vector<Vec4f> L;
     MAX_LENS = min(MAX_LENS, (int)line.size());
     set<int> s;
@@ -141,11 +146,11 @@ int main()
         double k = tan(angle * CV_PI / 180);
 
         int discreteAngle = angle / 10;
-        if(discreteAngle > 17 )
+        if (discreteAngle > 17)
             discreteAngle = 17;
 
         double x0 = (x1 + x2) / 2;
-        cout << x1 << " " << x2 << " " << x0 << endl;
+        //cout << x1 << " " << x2 << " " << x0 << endl;
 
         vector<vector<idxPoint> > p;
         p.resize(2);
@@ -160,7 +165,7 @@ int main()
             p[1].push_back(p2);
         }
 
-        //æ‰¾åˆ°
+        //ÕÒµ½
         for (int i = 0; i < angleLine[discreteAngle].size(); i++) {
             if (angleLine[discreteAngle][i].idx == index)
                 continue;
@@ -189,13 +194,13 @@ int main()
             }
         }
 
-        cout << p[0].size() << endl;
-        cout << p[1].size() << endl;
+        //cout << p[0].size() << endl;
+        //cout << p[1].size() << endl;
 
         sort(p[0].begin(), p[0].end(), mysort2);
         sort(p[1].begin(), p[1].end(), mysort3);
 
-        //æ‰¾åˆ°å³ç«¯ç‚¹
+        //ÕÒµ½ÓÒ¶Ëµã
         int i = 0;
         double endx1;
         while(p[0][i].idx != index) {
@@ -210,10 +215,10 @@ int main()
         }
         endx1 = p[0][i - 1].x;
         double endy1 = k * (endx1 - x1) + y1;
-        cout << endx1 << endl;
+        //cout << endx1 << endl;
 
 
-        //æ‰¾åˆ°å·¦ç«¯ç‚¹
+        //ÕÒµ½×ó¶Ëµã
         i = 0;
         double endx2;
         while(p[1][i].idx != index) {
@@ -228,7 +233,7 @@ int main()
         }
         endx2 = p[1][i - 1].x;
         double endy2 = k * (endx2 - x1) + y1;
-        cout << endx2 << endl;
+        //cout << endx2 << endl;
 
         Vec4f l(endx1, endy1, endx2, endy2);
         line.push_back(l);
@@ -239,17 +244,17 @@ int main()
 
     }
 
-    //åˆå¹¶è¿‡çŸ­ç›´çº¿
+    //ºÏ²¢¹ý¶ÌÖ±Ïß
     vector<Vec4f>::iterator l = line.begin();
     for(set<int>::reverse_iterator it = s.rbegin(); it != s.rend(); it ++) {
         line.erase(l + *it);
-        cout << *it << endl;
+        //cout << *it << endl;
     }
 
 
 
 
-    // æ±‚å¹³å‡ç›´çº¿é•¿åº¦ï¼Œå°†å°äºŽå¹³å‡é•¿åº¦çš„ç›´çº¿åˆ é™¤
+    // ÇóÆ½¾ùÖ±Ïß³¤¶È£¬½«Ð¡ÓÚÆ½¾ù³¤¶ÈµÄÖ±ÏßÉ¾³ý
     idxLens.clear();
     len.clear();
     max_len = 0;
@@ -289,8 +294,10 @@ int main()
     threshold(lineImage, lineImage, 0, 255, THRESH_OTSU);
 
 
-    imshow("result", lineImage);
-    waitKey(0);
-    return 0;
+//    imshow("result", lineImage);
+//    waitKey(0);
+    return cut_line;
 }
 
+
+#endif //FDCM_ILSD_H

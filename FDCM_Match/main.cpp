@@ -117,7 +117,7 @@ int main(int argc, char* argv[]) {
 
 //            imshow("Src", Src);
 
-            waitKey(0);
+//            waitKey(0);
         }
         cout << "minidx" << minidx << endl;
     }

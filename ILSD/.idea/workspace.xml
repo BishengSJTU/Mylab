@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="FDCM" targetName="FDCM" />
+      <config projectName="LSD" targetName="LSD" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,15 +11,15 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b94f2699-1231-457f-89a2-ed006adb7fc6" name="Default Changelist" comment="">
+    <list default="true" id="7b334e92-4659-4c9a-898e-518f227de491" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../FDCM _match/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IprovedFDCM.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/IprovedFDCM.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FDCM.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FDCM.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FDCM.dir/IprovedFDCM.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FDCM.dir/IprovedFDCM.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FDCM.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FDCM.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FDCM" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/FDCM" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FDCM_Match/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FDCM_Match/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FDCM_Match/IprovedFDCM.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../FDCM_Match/IprovedFDCM.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FDCM_Match/cmake-build-debug/CMakeFiles/FDCM.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../FDCM_Match/cmake-build-debug/CMakeFiles/FDCM.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FDCM_Match/cmake-build-debug/CMakeFiles/FDCM.dir/IprovedFDCM.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../FDCM_Match/cmake-build-debug/CMakeFiles/FDCM.dir/IprovedFDCM.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FDCM_Match/cmake-build-debug/CMakeFiles/FDCM.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../FDCM_Match/cmake-build-debug/CMakeFiles/FDCM.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FDCM_Match/cmake-build-debug/FDCM" beforeDir="false" afterPath="$PROJECT_DIR$/../FDCM_Match/cmake-build-debug/FDCM" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FDCM_Match/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../FDCM_Match/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../I-LSD/.idea/.name" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../I-LSD/.idea/LSD.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../I-LSD/.idea/encodings.xml" beforeDir="false" />
@@ -118,35 +118,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="110" lean-forward="true" selection-start-line="110" selection-end-line="110" />
-              <folding>
-                <element signature="e#0#16#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/IprovedFDCM.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-303">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/IprovedFDCM.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="437" column="22" lean-forward="true" selection-start-line="437" selection-start-column="22" selection-end-line="437" selection-end-column="22" />
-              <folding>
-                <element signature="e#0#24#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="698">
+              <caret line="292" column="14" selection-start-line="292" selection-start-column="14" selection-end-line="292" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -155,12 +128,8 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>order</find>
-      <find>angles</find>
-      <find>distForMatch</find>
-      <find>Maxlabels</find>
-      <find>cout</find>
-      <find>imshow</find>
+      <find>18</find>
+      <find>17</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -169,7 +138,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/IprovedFDCM.cpp" />
         <option value="$PROJECT_DIR$/main.cpp" />
       </list>
     </option>
@@ -187,25 +155,13 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="FDCM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FDCM_Match" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -220,7 +176,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="FDCM" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="FDCM" TARGET_NAME="FDCM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="FDCM" RUN_TARGET_NAME="FDCM">
+    <configuration name="LSD" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LSD" TARGET_NAME="LSD" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LSD" RUN_TARGET_NAME="LSD">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -231,32 +187,29 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b94f2699-1231-457f-89a2-ed006adb7fc6" name="Default Changelist" comment="" />
-      <created>1560347618009</created>
+      <changelist id="7b334e92-4659-4c9a-898e-518f227de491" name="Default Changelist" comment="" />
+      <created>1560428756668</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1560347618009</updated>
-      <workItem from="1560347619208" duration="423000" />
-      <workItem from="1560348160533" duration="1666000" />
-      <workItem from="1560405787662" duration="9810000" />
-      <workItem from="1560436389010" duration="302000" />
+      <updated>1560428756668</updated>
+      <workItem from="1560428758051" duration="3125000" />
+      <workItem from="1560436356997" duration="337000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12201000" />
+    <option name="totallyTimeSpent" value="3462000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1985" y="-4" width="1855" height="1084" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25815368" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25262576" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3291536" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39916405" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3291536" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -275,59 +228,21 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="XDebuggerManager">
-    <watches-manager>
-      <configuration name="CMakeRunConfiguration">
-        <watch expression="result[0]" language="ObjectiveC" />
-        <watch expression="result[1]" language="ObjectiveC" />
-      </configuration>
-    </watches-manager>
-  </component>
-  <component name="debuggerHistoryManager">
-    <expressions id="watch">
-      <expression>
-        <expression-string>result[1]</expression-string>
-        <language-id>ObjectiveC</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>result[0]</expression-string>
-        <language-id>ObjectiveC</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-    </expressions>
-  </component>
   <component name="editorHistoryManager">
+    <entry file="file:///opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/imgproc.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="338" column="4" selection-start-line="338" selection-start-column="4" selection-end-line="338" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/IprovedFDCM.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="437" column="22" lean-forward="true" selection-start-line="437" selection-start-column="22" selection-end-line="437" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IprovedFDCM.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-303">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="110" lean-forward="true" selection-start-line="110" selection-end-line="110" />
-          <folding>
-            <element signature="e#0#16#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="698">
+          <caret line="292" column="14" selection-start-line="292" selection-start-column="14" selection-end-line="292" selection-end-column="14" />
         </state>
       </provider>
     </entry>

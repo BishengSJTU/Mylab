@@ -101,8 +101,8 @@ void  IprovedFDCM::lineSortCut(vector<Vec4f> &line, vector<FastLenOrder>&order, 
 			}
 			else
 			{
-				vector<Vec4f> ::iterator it = line.begin()+j;
-				line.erase( it);
+				vector<Vec4f> ::iterator it1 = line.begin()+j;
+				line.erase(it1);
 				j--;
 			}
 
@@ -175,10 +175,9 @@ void  IprovedFDCM::lineMatch(Mat &dist, Mat &labelimg, double * LabelSlope, int 
 					}
 
 					float DIST = dist.at<float>(y, x);
-					if(DIST > 1e-5)
-						cout << DIST << endl;
-					//11111111111111111111111111111111111111111111111111111此处有错！！！！！！！！！！！！！！！！！！！！！
-					result[dcount] += dist.at<float>(y, x) + lamda*angleErr; //chamfer distance trans 匹配的主要公式!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+					result[dcount] += dist.at<float>(y, x) + lamda*angleErr; //chamfer distance trans 匹配的主要公式
 				}
 				else
 					result[dcount] += 100;//这个需要再议，但是不能让边缘最小  //图像外的点
@@ -284,7 +283,8 @@ double IprovedFDCM::ondistTrans(Mat src, vector<FastLenOrder>Qorder, vector<Vec4
 
     //normalize(dist, dist, 255, 0, NORM_MINMAX);
     Mat distForMatch;
-    dist.convertTo(distForMatch, CV_32S, 1, 0);
+    distForMatch = dist.clone();
+//    dist.convertTo(distForMatch, CV_32S, 1, 0);
     int maxlabel = 0;
     ///////////这一段作用是将每个label对应的角度求出///////////////
     struct FastlabelAngle LA[Maxlabels];
@@ -432,8 +432,9 @@ double IprovedFDCM::ondistTrans(Mat src, vector<FastLenOrder>Qorder, vector<Vec4
 //            labels.convertTo(labels, CV_8U);
 //            imshow("labels", labels);
         }
-        resize(dist8u, dist8u, Size(dist8u.cols / 2, dist8u.rows / 2));
+        resize(dist8u, dist8u, Size(dist8u.cols, dist8u.rows));
         imshow("Distance Map", dist8u);
+//        imwrite("Dis.png", dist8u);
         return minSum;
     }
 }
